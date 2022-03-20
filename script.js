@@ -79,15 +79,15 @@ const name = setInterval(() => {
 
 //scrol event
 
-const one = document.getElementById("beforscrol");
-const addd = () => {
-  if (document.documentElement.scrollTop >= 1400) {
-    one.classList.toggle("opacitybefor");
-    one.classList.add("opacityafter");
-  }
-};
+// const one = document.getElementById("beforscrol");
+// const addd = () => {
+//   if (document.documentElement.scrollTop >= 1400) {
+//     one.classList.toggle("opacitybefor");
+//     one.classList.add("opacityafter");
+//   }
+// };
 
-window.addEventListener("scroll", addd);
+// window.addEventListener("scroll", addd);
 
 // scrol upbtn
 const upbtn = document.getElementById("upbtn");
@@ -105,12 +105,12 @@ const upbtn1 = () => {
 window.addEventListener("scroll", upbtn1);
 
 //
-const imageprod = document.getElementById("imageprod");
-const imageprod1 = () => {
-  if (document.documentElement.scrollTop >= 3000) {
-    imageprod.classList.toggle("imageprodbefor");
-    imageprod.classList.add("imageprodafter");
-  }
-};
+// const imageprod = document.getElementById("imageprod");
+// const imageprod1 = () => {
+//   if (document.documentElement.scrollTop >= 3000) {
+//     imageprod.classList.toggle("imageprodbefor");
+//     imageprod.classList.add("imageprodafter");
+//   }
+// };
 
-window.addEventListener("scroll", imageprod1);
+// window.addEventListener("scroll", imageprod1);
