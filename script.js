@@ -85,7 +85,7 @@ const name = setInterval(() => {
 //     one.classList.toggle("opacitybefor");
 //     one.classList.add("opacityafter");
 //   }
-// };
+// // };
 
 // window.addEventListener("scroll", addd);
 
@@ -104,7 +104,7 @@ const upbtn1 = () => {
 
 window.addEventListener("scroll", upbtn1);
 
-//
+// //
 // const imageprod = document.getElementById("imageprod");
 // const imageprod1 = () => {
 //   if (document.documentElement.scrollTop >= 3000) {
